@@ -9,6 +9,10 @@ import java.util.List;
  * @email liu.yang@autoyong.com
  * @
  */
+
+/**
+ * 孩子哭了 爸爸妈妈和狗狗不同时间的反应使用观察者模式显示
+ */
 class Baby {
     List<MyObserver> observerList = new ArrayList<>();
     public void regigerObsever(MyObserver observer){
